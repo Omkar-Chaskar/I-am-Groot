@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,700;1,700&display=swap');
+:root {
+    --primary-color:#7834cb;
+}
+
+body {
+    font-family: 'Marvel', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header {
+    background-color: var(--primary-color);
+    position:fixed ;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius:0rem 0rem 0rem 1rem ;
+}
+
+.container {
+    margin-top: 8rem;
+}
+
+textarea {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.btn {
+    background-color: var(--primary-color);
+    font-family: inherit;
+    border: none;
+    margin-top: 1rem;
+    padding: 13px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius:0rem 1rem 0rem 1rem ;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    position:fixed ;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    border-radius:0rem 1rem 0rem 0rem ;
+}
